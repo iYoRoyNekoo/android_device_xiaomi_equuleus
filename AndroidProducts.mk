@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_equuleus.mk
+    $(LOCAL_DIR)/kscope_equuleus.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_equuleus-user \
-    lineage_equuleus-userdebug \
-    lineage_equuleus-eng
+    kscope_equuleus-user \
+    kscope_equuleus-userdebug \
+    kscope_equuleus-eng
