@@ -233,6 +233,8 @@ vendor/bin/hw/vendor.qti.secure_element@1.0-service
 vendor/etc/init/vendor.qti.secure_element@1.0-service.rc
 vendor/lib64/hw/android.hardware.secure_element@1.0-impl.so
 vendor/lib/hw/android.hardware.secure_element@1.0-impl.so
+vendor/lib64/hw/android.hardware.secure_element@1.1.so
+vendor/lib/hw/android.hardware.secure_element@1.1.so
 
 # Sensors
 vendor/lib64/sensors.ssc.so

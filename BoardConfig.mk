@@ -15,13 +15,17 @@ DEVICE_PATH := device/xiaomi/equuleus
 TARGET_OTA_ASSERT_DEVICE := equuleus
 
 # Display
+TARGET_USES_COLOR_METADATA := true
 TARGET_SCREEN_DENSITY := 440
 
 # Kernel
+TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm845
+TARGET_KERNEL_CONFIG := vendor/xiaomi/mi845_defconfig
 TARGET_KERNEL_CONFIG += vendor/xiaomi/equuleus.config
 
 # Partitions
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 67108864
+BOARD_USES_METADATA_PARTITION := true
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
