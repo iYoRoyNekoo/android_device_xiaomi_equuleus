@@ -5,9 +5,13 @@
 #
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/xiaomi/equuleus/equuleus-vendor.mk)
+
+# Firmware
+$(call inherit-product, vendor/xiaomi-firmware/equuleus/firmware.mk)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2248
@@ -108,3 +112,11 @@ PRODUCT_SOONG_NAMESPACES += \
 # WiFi
 PRODUCT_PACKAGES += \
     TargetWifiOverlay
+
+# PocketMode
+PRODUCT_PACKAGES += \
+    XiaomiPocketMode
+    
+# Camera
+PRODUCT_PACKAGES += \
+    Snap
