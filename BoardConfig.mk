@@ -22,6 +22,7 @@ TARGET_SCREEN_DENSITY := 440
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm845
 TARGET_KERNEL_CONFIG := vendor/xiaomi/mi845_defconfig
 TARGET_KERNEL_CONFIG += vendor/xiaomi/equuleus.config
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 # Partitions
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 67108864
