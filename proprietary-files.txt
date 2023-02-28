@@ -235,6 +235,8 @@ vendor/lib64/hw/android.hardware.secure_element@1.0-impl.so
 vendor/lib/hw/android.hardware.secure_element@1.0-impl.so
 vendor/lib64/hw/android.hardware.secure_element@1.1.so
 vendor/lib/hw/android.hardware.secure_element@1.1.so
+vendor/lib64/android.hardware.secure_element@1.2.so
+vendor/lib/android.hardware.secure_element@1.2.so
 
 # Sensors
 vendor/lib64/sensors.ssc.so
